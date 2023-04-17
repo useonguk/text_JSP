@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+header{
+	position:fixed;
+	width:100%;
+	height:40px;
+	font-size:25px;
+	line-height:40px;
+	top:0px;
+	text-align:center;
+	background-color:blue;
+	color:white; 
+}
+nav{
+	position:fixed;
+	width:100%;
+	top:40px;
+	height: 30px;
+	background-color: skyblue;
+	
+}
+nav > a{
+	padding:15px;
+}
+section{
+	position:absolute;
+	top:70px;
+	background-color: lightgray;
+	height: 100%;
+	width: 100%;
+}
+section > h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+footer{
+	position:fixed;
+	width:100%;
+	height:40px;
+	text-align:center;
+	background-color:blue;
+	color:white;
+	bottom: 0px;
+	line-height: 40px;
+}

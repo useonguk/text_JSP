@@ -1,0 +1,9 @@
+INSERT INTO lecturer_tbl VALUES(1, '김교수', '소프트웨어공학');
+INSERT INTO lecturer_tbl VALUES(2, '이교수', '프로그래밍');
+INSERT INTO lecturer_tbl VALUES(3, '박교수', '네트워크');
+INSERT INTO lecturer_tbl VALUES(4, '우교수', '운영체조');
+INSERT INTO lecturer_tbl VALUES(5, '최교수', '자료구조');
+INSERT INTO lecturer_tbl VALUES(6, '임교수', '인공지능');
+commit;
+
+SELECT * FROM lecturer_tbl;
